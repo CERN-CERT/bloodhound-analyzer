@@ -4,7 +4,7 @@ from setuptools import find_packages, setup
 
 setup(
     name="bloodhound-analyzer",
-    version="0.0.8",
+    version="0.0.9",
     description="Analyze BloodHound data & generate csv reports",
     url="https://github.com/CERN-CERT/bloodhound-analyzer.git",
     author="CERN Computer Security Team",
