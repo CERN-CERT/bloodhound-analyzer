@@ -1,0 +1,14 @@
+logging:
+    version: 1
+    disable_existing_loggers: false
+    loggers:
+        '':
+            level: INFO
+neo4j:
+    address: neo4j://localhost:7687
+    username: neo4j
+    password: neo4j
+bloodhound-analyzer:
+    query_file: /etc/bloodhound-analyzer/cypher_queries.in
+    output_dir: /etc/bloodhound-analyzer/csv_output
+    tmp_dir: /tmp/bloodhound_analyzer
